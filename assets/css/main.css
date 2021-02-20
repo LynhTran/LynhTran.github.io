@@ -2813,15 +2813,15 @@ button:disabled,
 }
 
 .tiles article.style2 > .image:before {
-  background-color: #ffd780;
+  background-color: #ffbf34;
 }
 
 .tiles article.style3 > .image:before {
-  background-color: #8cebfc;
+  background-color: #d3b0fc;
 }
 
 .tiles article.style4 > .image:before {
-  background-color: #d3b0fc;
+  background-color: #8cebfc;
 }
 
 .tiles article.style5 > .image:before {
