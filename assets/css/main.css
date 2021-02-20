@@ -1901,7 +1901,7 @@ header p {
 .icon {
   text-decoration: none;
   border-bottom: none;
-  position: relative;
+  position: center;
 }
 
 .icon:before {
