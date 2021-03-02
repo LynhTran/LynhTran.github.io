@@ -1,7 +1,5 @@
 
-Hi I'm Lynh! Here's my portfolio website! You can view it by clicking the link below
-
-http:/lynhtran.github.io
+Hi I'm Lynh and I'm currently in the process of making a portfolio website. You can check out what I've got so far by clicking link in my about section!
 
 How did I make it?
 
