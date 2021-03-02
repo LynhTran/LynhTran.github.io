@@ -5,7 +5,7 @@ http:/lynhtran.github.io
 
 How did I make it?
 
-    I used a template by HTML5 UP as a base for my website and personalized it. 
+    I started with a template by HTML5 UP and went from there! 
     Phantom by HTML5 UP
     html5up.net | @ajlkn
     Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)

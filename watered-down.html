@@ -1,0 +1,147 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Minnehack 2021</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+    <body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="generic.html">Ipsum veroeros</a></li>
+							<li><a href="generic.html">Tempus etiam</a></li>
+							<li><a href="generic.html">Consequat dolor</a></li>
+							<li><a href="elements.html">Elements</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>Minnehack 2021</h1>
+                            <center>
+                                <img src ="images/Watered_Down_Logo.png" style = "width: 80%"/> 
+                                <br/>
+                                <br/>
+                                <p> If you're looking for a brief overview of this project, please check out our DevPost!</p>
+                                <a href ="https://devpost.com/software/watered-down"> <button>Click Here for the DevPost!</button></a>
+                            </center>
+                            <br/>
+                                
+                                <h3> Setting the Scene</h3> 
+                                <p> One week into the spring semester of my freshman year of college, some fellow coders and I decided to compete in Minnehack 2021. 
+                                    I'll be completely honest; this was my first ever hackathon experience, and I was quite nervous. 
+                                    My only experience in app development up to this point was my participation in SASE Labs (Society of Asian Scientist & Engineers) where I'd just begun
+                                    learning the basics of Javascript, HTML, and CSS with React for an app called Gopher A Bite (you can read more on that project <a href="projects.html">HERE</a>).
+                                    Because of Covid-19 I didn't have to worry about sleeping on the floor of an auditorium surrounded by fellow coders who haven't showered (maybe due to the hackathon... maybe not). 
+                                    However, I did prep by making a fashion statement with my blue light blocking glasses, chugging a Red Bull, and leaving the rest of the pack within arms reach for the eventual fatigue that would come with hours upon hours of programming.   </p> 
+                                <h3> The Event</h3>
+                                    
+                                    <p> On January 23rd, 2021 at noon, Nathaniel Budijono, William Chan, Evan Tredal, and I got together (virtually) and competed in Minnehack 2021. 
+                                        The event began by announcing 4 prompts, 1 of which you must chose and create a solution for. The best solution to the prompt will win that prompt's prize. 
+                                        <br/> <br/> 
+                                        The prompts were as follows:
+                                        <p style="margin-left: 40px"> 
+                                            <b>Water</b> – taking a circular approach to the world’s most precious resource, helping customers manage water through conservation, recycling and reuse.
+                                            <br/> <b>Food</b> – keeping food safe all along the supply chain, preventing foodborne illnesses and ensuring safe, high-quality food for people around the world.
+                                            <br/> <b>Health</b> – protecting people and businesses from the risk of exposure to germs, keeping people healthy everywhere they eat, stay, play, shop and heal.
+                                            <br/> <b>Climate</b> - – tackling climate change by increasing energy efficiency and reducing greenhouse gas emissions – for customers and in operations.
+                                            <br/> 
+                                        </p>
+                                <h3> Brainstorming</h3>
+                                        We all immediately wanted to tackle the water prompt. If we were to be completely honest, it was probably because of its associated prize --  4 Nintendo switches. However, we were also inspired by the need for water conservation. 
+                                        According to an article in Aquatic Conservation, water management can account for over 15% of the world's electricity consumption. We decided finding a way to reduce water consumption was the way to go. 
+                                        At some point, Nathaniel mentioned reducing water usage by showing how much water is used on a 3D house (using Evan's graphic skills he'd developed making games). Everybody perked up. Clearly, there were some issues with this idea. 
+                                        <p  style="margin-left: 40px">
+                                            <br/> 1) How would we know how much water & from where in the house it is used?
+                                            <br/> 2) How would we display a 3D house?
+                                            <br/> 3) Would we have enough time to make a 3d house?
+                                        </p>
+                                       Since we were creating this app virtually, we didn't want to deal with any hardware. That meant some sort of attachment that would measure water usage was out of the question. 
+                                        However, we knew that manual input into the app would make it a lot harder on users, reducing the likelihood that they'd use our app. Somehow, we'd have to make it simple to use our app. 
+                                        This is when Nathaniel mentioned QR codes. We could have unique QR codes for each appliance and each time a user used the appliance they would scan the QR code with their phone, sending 
+                                        the water usage to backend. Nathaniel's idea was perfect, but we still had to decide on how we were going to showcase the water data. 
+                                        Evan decided that it probably wasn't the best idea to create a 3D house in the time we had, so we had to come up with an alternative. I brought up the idea of showcasing usage by gallons. It would 
+                                        still accomplish our goal of visualizing how much water usage, but be more manageable in the time frame. We decided to go with these changes, and in about an hour of brainstorming we'd come up with 
+                                        our app concept that would eventually become Watered Down. 
+                                        <br/>
+                                            <img src = "images/watered-down/4.png" style="width: 45%"/>
+                                            <img src = "images/watered-down/5.png" style="width: 45%"/>
+
+                                         </p>
+                                <h3> Building Watered Down</h3>
+                                <p> Next, we decided on how we were to diving our work. Will was very strong with backend, so he was our mainly in charge of our API. Evan worked with how to create QR codes. With a need for a front-end developer, I gladly volunteered! 
+                                    Nathaniel floated between Will and I to help with anything and everything! 
+                                    <br/> <br/> Here's some of the items I did!
+                                    <p  style="margin-left: 40px">
+                                        <b>Navigation Bar</b> 
+                                        <br/> I decided to start with the navigation bar to have a basis for the entire web app. I decided on using React since I had some experience with it from <a>Gopher A Bite</a>. Using React-Router, I was able to make it pretty quickly!
+                                        <br/><b>Styling</b>
+                                        <br/> I used React Bootstrap as a base, with a little manipulation to the color palette and font. I had help from 
+                                            <a href="https://coolors.co/b6dcfe-cdedfd-004777-1b263b-cb90d6">coolors.co</a> in finding a suitable color palette and Google Fonts for finding suitable fonts.
+                                            
+                                        <br/> 
+                                        <center>
+                                            <img src ="images/watered-down/colors.png" style ="width: 50%;"/>
+                                            <br/><br/><img src = "images/watered-down/1.png" style="width: 80%"/>
+                                            <p>The home page</p>
+                                        </center>
+                                        
+                                        <br/><b>Statistics Dashboard</b>
+                                        <center>
+                                            <br/> This page displayed all the gallons used by the user depending on the data given to our API. <br/>
+                                            <img src = "images/watered-down/wdstats.png" style="width: 60%"/>
+                                            <br/> If you selected a certain appliance, it also displayed the water usage specifically for that appliance.
+                                            <br/><img src = "images/watered-down/3.png" style="width: 80%"/>
+                                        </center>
+                                        
+                                    </p>
+                                <h3> The App </h3>
+                                <p>
+                                    After 24 hours (more like 18 if you count sleep), here's what we came up with!
+                                </p>
+                                <center><a href ="https://devpost.com/software/watered-down"> <button>Click Here for the DevPost!</button></a></center>
+                                <h3> What I learned </h3>
+                                <ul>
+                                    <li> How to collaboratively program with GitHub</li>
+                                    <li> How to use React-Router</li>
+                                    <li> Improved Javascript skills
+                                    <li> How to use Bootstrap for React Components</li>
+                                </ul>
+
+						</div>
+					</div>
+
+				<!-- Footer -->
+	
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
