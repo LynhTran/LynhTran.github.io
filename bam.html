@@ -1,71 +1,127 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
 	Phantom by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>BAM</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-		<!-- Wrapper -->
-			<div id="wrapper">
+  <head>
+    <title>BAM</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header">
+        <div class="inner">
+          <!-- Logo -->
+          <a href="index.html" class="logo">
+            <span class="symbol"><img src="images/logo.svg" alt="" /></span
+            ><span class="title">Lynh Tran</span>
+          </a>
 
-				<!-- Header -->
-					<header id="header">
-						<div class="inner">
+          <!-- Nav -->
+          <nav>
+            <ul>
+              <li><a href="#menu">Menu</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
 
-							<!-- Logo -->
-								<a href="index.html" class="logo">
-									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Phantom</span>
-								</a>
+      <!-- Menu -->
+      <nav id="menu">
+        <h2>Menu</h2>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="generic.html">Ipsum veroeros</a></li>
+          <li><a href="generic.html">Tempus etiam</a></li>
+          <li><a href="generic.html">Consequat dolor</a></li>
+          <li><a href="elements.html">Elements</a></li>
+        </ul>
+      </nav>
 
-							<!-- Nav -->
-								<nav>
-									<ul>
-										<li><a href="#menu">Menu</a></li>
-									</ul>
-								</nav>
+      <!-- Main -->
+      <div id="main">
+        <div class="inner">
+          <h1>BAM</h1>
+          <center>
+            <p>
+              In January of 2021, I was elected the Director of Technology for
+              BAM (Business Association of Multicultural Students).
+            </p>
+            <img src="images/bam/bam-board.jpeg" style="width: 60%" />
+            <p>During my term, here's some of the things I did:</p>
+          </center>
+          <h2>The Website</h2>
+          <center>
+            <h4>Before</h4>
+            <img src="images/bam/home.png" alt="" style="width: 70%" />
 
-						</div>
-					</header>
+            <br /><br />
+            <h4>After</h4>
+            <br />
+            <img src="images/bam/homeAfter2021.png" alt="" style="width: 70%" />
+            <br /><img src="images/bam/join2.png" alt="" style="width: 70%" />
+          </center>
+          <p>
+            After getting feedback from BAM members, I was told that the large
+            background picture made the text too difficult to see. Also, only
+            having the board member's in the photo made some very dedicated
+            members feel left out. The muted blue did not seem to match the
+            liveliness of BAM's events. To resolve this, I updated the color
+            palette and created some simple backgrounds that used those colors,
+            and created a gallary carousel.
+          </p>
+          <h2>Digital Resume System</h2>
+          <center>
+            <img
+              src="images/bam/bam-resume-portal.png"
+              alt="resume portal picture"
+              style="width: 70%"
+            />
+            <p>
+              Previously, each semester the BAM board would collect pdf's of
+              each members resume and compile them into one giant pdf to be sent
+              to our sponsors. This was a very tedious task that would take the
+              board about a week to complete. Also, the issue of having out of
+              date resumes I wrote a Google App Scripts to automate the resume
+              collection process. The script would place the students resume in
+              the appropriate section and rename each resume with the student's
+              name and the date (ex. LynhTran_Fall21.pdf). The Sponsors would
+              have access to these resumes as they are sent in during the
+              semester on their own private portal, with the password to access
+              changing every month. The sponsor view would have folders
+              representing each semester with the respective resumes in each.
+            </p>
+          </center>
+          <h2>Alumni Database & Attendence Tracking</h2>
+          <p>
+            Having a database of past BAM members could be very beneficial for
+            finding speakers, sponsors, and job opprotunities for future BAM
+            members. This is why we decided to create an alumni database. This
+            was a 3 month process of attempting to reach out to members of the
+            last 10 years using the little information we could find from the
+            university and past records. The lack of resources also demonstrated
+            we needed a more organized way of tracking attendance to our events.
+            We created a new system where before entering each event, there
+            would be a QR code to sign in. I then created a Google App Script
+            that would compile all the sign in entries and automatically update
+            charts and tables for board members to see. This helped us recognize
+            what events were successful, what students we were attracting, and
+            which marketing strategies were most sucessful.
+          </p>
 
-				<!-- Menu -->
-					<nav id="menu">
-						<h2>Menu</h2>
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="generic.html">Ipsum veroeros</a></li>
-							<li><a href="generic.html">Tempus etiam</a></li>
-							<li><a href="generic.html">Consequat dolor</a></li>
-							<li><a href="elements.html">Elements</a></li>
-						</ul>
-					</nav>
-
-				<!-- Main -->
-					<div id="main">
-						<div class="inner">
-							<h1>Bam4Biz.com</h1>
-                            <p> In January of 2021, I was elected the Director of Technology for BAM (Business Association of Multicultural Students). 
-                                One of my responsibilities was our website, Bam4Biz.com. Here's the changes I made! </p>
-							<h2> The landing Page</h2>
-                                <center>
-                                        <h3>Before</h3>
-                                        <img src="images/bam/home.png" alt="" style ="width: 70%"/>
-                                        
-                                        <br/><br/>
-                                        <h3>After</h3>
-                                        <br/>
-                                        <img src="images/bam/homeAfter2021.png" alt="" style ="width: 70%"/>
-                                        <br/><img src="images/bam/join2.png" alt="" style ="width: 70%"/>
-
-                                </center>
-                                <h2> About Us</h2>
+          <!-- <h2> About Us</h2>
                                 <center>
                                     <h3>Before</h3>
                                     <img src="images/bam/aboutbefore.png" alt="" style ="width: 70%"/>
@@ -78,21 +134,50 @@
                                         <br/><img src="images/bam/board1.png" alt="" style ="width: 70%"/>
                                         <br/><img src="images/bam/board3.png" alt="" style ="width: 70%"/>
                                         <br/><img src="images/bam/board2.png" alt="" style ="width: 40%"/>
-                                </center>
-                                
-							<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel venenatis mauris vehicula hendrerit.</p>
-							<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
-						</div>
-					</div>
+                                </center> -->
+        </div>
+      </div>
+      <!-- Footer -->
+      <footer id="footer" style="text-align: center">
+        <div>
+          <ul class="icons">
+            <li>
+              <a
+                href="https://github.com/LynhTran"
+                class="icon brands style2 fa-github"
+                ><span class="label">GitHub</span></a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/lynhxtran/"
+                class="icon brands style2 fa-linkedin"
+                ><span class="label">500px</span></a
+              >
+            </li>
+            <li>
+              <a
+                href="mailto: Tran0879@umn.edu"
+                class="icon solid style2 fa-envelope"
+                ><span class="label">Email</span></a
+              >
+            </li>
+          </ul>
+          <ul class="copyright">
+            <li>&copy; Lynh Tran</li>
+            <li>
+              Made with the help of <a href="http://html5up.net">HTML5 UP</a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
 
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
