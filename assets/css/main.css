@@ -2844,27 +2844,27 @@ button:disabled,
   margin-bottom: 0;
 }
 
-.tiles article.style1 > .image:before {
+.tiles article.teal > .image:before {
   background-color: #9ae7d9;
 }
 
-.tiles article.style2 > .image:before {
-  background-color: #ffbf34;
+.tiles article.yellow > .image:before {
+  background-color: #ffd562;
 }
 
-.tiles article.style3 > .image:before {
+.tiles article.purple > .image:before {
   background-color: #d3b0fc;
 }
 
-.tiles article.style4 > .image:before {
+.tiles article.blue > .image:before {
   background-color: #8cebfc;
 }
 
-.tiles article.style5 > .image:before {
+.tiles article.pink > .image:before {
   background-color: #ff9bbd;
 }
 
-.tiles article.style6 > .image:before {
+.tiles article.darkblue > .image:before {
   background-color: #61a0ff;
 }
 
