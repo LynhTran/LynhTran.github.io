@@ -101,7 +101,48 @@
               src="images/microsoft/interpolation-fill-in.png"
               alt="interpolation-fill-in"
             />
-            <p></p>
+            <p>
+              We use many methods for interpolation, each with their own
+              strengths and weaknesses. Nearest-Neighbor can result in pixilated
+              looking images, while bilinear can result in a more blurry look.
+            </p>
+            <img
+              src="images/microsoft/interpolation-methods.pbm"
+              alt="interpolation-methods"
+            />
+            <p>
+              Average users don't tend to notice the side effects of
+              interpolation too much, but our low vision users do! When you're
+              using the magnifier over 400%, things like text (which uses
+              nearest neighbor interpolation) can give you headaches and render
+              Windows unusable.
+            </p>
+            <p>
+              My task was to see if we could improve the way Windows currenly
+              interpolates by incorporating machine learning into the mix.
+              Although I cannot say much about the results due to NDA, I will
+              mention a few of the tools that I used.
+            </p>
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/microsoft/DirectML/tree/master/Samples/DirectMLSuperResolution"
+                  >DirectML Super Resolution Sample</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.nvidia.com/en-us/geforce/technologies/dx12/"
+                  >DirectX12</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://learn.microsoft.com/en-us/windows/win32/apiindex/windows-api-list"
+                  >Windows API</a
+                >
+              </li>
+            </ul>
           </div>
         </div>
       </div>
