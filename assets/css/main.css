@@ -2503,7 +2503,20 @@ input[type="radio"] + label:before {
     transform: rotate(0deg);
   }
 }
-
+/* fading in */
+.fade-in-image {
+  animation: fadeIn 3s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 /* Table */
 
 .table-wrapper {
