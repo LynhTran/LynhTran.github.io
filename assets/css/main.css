@@ -3458,3 +3458,25 @@ body.is-menu-visible #menu .close {
     padding: 0 1.25em;
   }
 }
+
+/* Grid Gallery */
+.grid {
+  display: grid;
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  grid-auto-flow: row;
+}
+
+/* > 640px */
+@media screen and (min-width: 640px) {
+  .grid {
+    grid-auto-flow: column;
+  }
+}
+
+.grid-item {
+  object-fit: contain;
+  width: 100%;
+  max-height: 100%;
+  min-height: 40rem;
+}
