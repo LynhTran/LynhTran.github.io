@@ -2781,7 +2781,7 @@ button:disabled,
   height: 100%;
   opacity: 1;
   z-index: 1;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .tiles article > .image:after {
@@ -2900,7 +2900,7 @@ body:not(.is-touch) .tiles article:hover > .image {
 
 body:not(.is-touch) .tiles article:hover > .image:before {
   background-color: #333333;
-  opacity: 0.35;
+  opacity: 0.6;
 }
 
 body:not(.is-touch) .tiles article:hover > .image:after {
