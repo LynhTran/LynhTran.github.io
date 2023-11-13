@@ -2868,11 +2868,11 @@ button:disabled,
 }
 
 .tiles article.teal > .image:before {
-  background-color: #9ae7d9;
+  background-color: #96f0cc;
 }
 
 .tiles article.yellow > .image:before {
-  background-color: #ffd562;
+  background-color: #ffd76a;
 }
 
 .tiles article.purple > .image:before {
@@ -2884,7 +2884,7 @@ button:disabled,
 }
 
 .tiles article.pink > .image:before {
-  background-color: #ff9bbd;
+  background-color: #ffaed4;
 }
 
 .tiles article.darkblue > .image:before {
