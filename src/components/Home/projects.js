@@ -1,7 +1,5 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
-import Button from "../Atoms/button.js";
-import { Link } from "gatsby";
 import gopherABite from "../../images/gopher-a-bite.png";
 import wateredDown from "../../images/watered-down.png";
 
@@ -69,7 +67,7 @@ const Projects = () => {
                     }
                     class="w-full rounded-t-lg"
                   />
-                  <a href={p.href}>
+                  <a href={p.href} target="_blank">
                     <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,0.2)]"></div>
                   </a>
                 </div>

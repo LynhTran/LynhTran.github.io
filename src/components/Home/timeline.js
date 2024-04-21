@@ -1,5 +1,5 @@
-import React from "react"
-import { Timeline, Event } from "react-timeline-scribble"
+import React from "react";
+import { Timeline, Event } from "react-timeline-scribble";
 
 const VerticalTimeline = () => {
   return (
@@ -78,7 +78,7 @@ const VerticalTimeline = () => {
         </Event>
       </Timeline>
     </div>
-  )
-}
+  );
+};
 
-export default VerticalTimeline
+export default VerticalTimeline;
