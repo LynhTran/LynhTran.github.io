@@ -1,23 +1,24 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "gatsby";
 import lynhLogo from "../images/lynh-logo.jpg";
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
+
   return (
-    <nav className="bg-transparent">
+    <nav className="bg-transparent fixed top-0 w-full z-20">
       <div className="max-w-7xl mx-auto px-8 py-5">
         <div className="flex items-center justify-between h-16">
           <div className="w-full justify-between flex items-center">
             <div>
               <img
-                className="w-20 h-20"
+                className="w-20 h-20 rounded-full"
                 src={lynhLogo}
                 alt="lynh computer logo"
               ></img>
             </div>
 
             <div className="hidden md:block ">
-              <div className="ml-10 flex items-baseline space-x-4">
+              <div className="ml-10 flex items-baseline space-x-4 bg-gradient-to-r rounded-xl from-pink to-purple">
                 {/*
                 <Link
                   className="text-white opacity-50 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-poppins"
@@ -29,25 +30,25 @@ const Navbar = () => {
               */}
                 <Link
                   href="#skills"
-                  className="text-white opacity-50 hover:opacity-100 justify-content flex flex-row px-3 py-2 rounded-md text-sm font-medium font-poppins"
+                  className="text-white opacity-70 hover:opacity-100 justify-content flex flex-row px-3 py-2 rounded-md text-sm font-medium font-poppins"
                 >
                   🛠️ &nbsp; Skills
                 </Link>
                 <Link
                   href="#experience"
-                  className="text-white opacity-50 hover:opacity-100 justify-content flex flex-row px-3 py-2 rounded-md text-sm font-medium font-poppins"
+                  className="text-white opacity-70 hover:opacity-100 justify-content flex flex-row px-3 py-2 rounded-md text-sm font-medium font-poppins"
                 >
                   💼 &nbsp; Experience
                 </Link>
                 <Link
                   href="#projects"
-                  className="text-white opacity-50 hover:opacity-100 justify-content flex flex-row px-3 py-2 rounded-md text-sm font-medium font-poppins"
+                  className="text-white opacity-70 hover:opacity-100 justify-content flex flex-row px-3 py-2 rounded-md text-sm font-medium font-poppins"
                 >
                   💻 &nbsp; Projects
                 </Link>
                 <Link
                   href="https://www.linkedin.com/in/lynhxtran/"
-                  className="text-white opacity-50 hover:opacity-100 justify-content flex flex-row px-3 py-2 rounded-md text-sm font-medium font-poppins"
+                  className="text-white opacity-70 hover:opacity-100 justify-content flex flex-row px-3 py-2 rounded-md text-sm font-medium font-poppins"
                   target="_blank"
                 >
                   <img
@@ -58,7 +59,7 @@ const Navbar = () => {
                 </Link>
                 <Link
                   href="https://github.com/LynhTran/"
-                  className="text-white opacity-50 hover:opacity-100 justify-content flex flex-row px-3 py-2 rounded-md text-sm font-medium font-poppins"
+                  className="text-white opacity-70 hover:opacity-100 justify-content flex flex-row px-3 py-2 rounded-md text-sm font-medium font-poppins"
                   target="_blank"
                 >
                   <img
@@ -69,7 +70,7 @@ const Navbar = () => {
                 </Link>
                 <Link
                   href="https://www.goodreads.com/lynhtran"
-                  className="text-white opacity-50 hover:opacity-100 justify-content flex flex-row px-3 py-2 rounded-md text-sm font-medium font-poppins"
+                  className="text-white opacity-70 hover:opacity-100 justify-content flex flex-row px-3 py-2 rounded-md text-sm font-medium font-poppins"
                   target="_blank"
                 >
                   📚 &nbsp; What I'm Reading

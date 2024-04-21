@@ -26,7 +26,7 @@ const Header = () => {
   }, []);
 
   return (
-    <div className="max-w-7xl mx-auto px-8">
+    <div className="max-w-7xl mx-auto px-8 mt-32 ">
       <Fade>
         <div>
           <h2 className="text-white font-poppins opacity-50 font-semibold mt-5 text-xs mb-4 xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-xl">
