@@ -67,6 +67,13 @@ const Navbar = () => {
                   />
                   &nbsp; GitHub
                 </Link>
+                <Link
+                  href="https://www.goodreads.com/lynhtran"
+                  className="text-white opacity-50 hover:opacity-100 justify-content flex flex-row px-3 py-2 rounded-md text-sm font-medium font-poppins"
+                  target="_blank"
+                >
+                  📚 &nbsp; What I'm Reading
+                </Link>
               </div>
             </div>
           </div>

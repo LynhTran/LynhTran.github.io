@@ -5,8 +5,8 @@ const Experience = () => {
   return (
     <Fade bottom cascade>
       <div id="experience" className="mt-10 px-8 m-20">
-        <h1 className="text-white text-7xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-7xl m-4 mb-10">
-          My Experience
+        <h1 className="text-white text-6xl font-bold xxs:text-1xl xs:text-2xl sm:text-4xl lg:text-6xl m-4 mb-10">
+          Some of my experiences include...
         </h1>
         <div
           className="text-white opacity-50! 

@@ -1,29 +1,29 @@
-import React from "react"
-import Fade from "react-reveal/Fade"
-import Typed from "typed.js"
+import React from "react";
+import Fade from "react-reveal/Fade";
+import Typed from "typed.js";
 // Assets
 
 const Header = () => {
   // Create reference to store the DOM element containing the animation
-  const el = React.useRef(null)
+  const el = React.useRef(null);
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
       strings: [
         "Lynh Tran",
         "a Front End Developer",
-        "located in the Greater-Seattle Area",
+        "located in the Seattle Area",
       ],
       typeSpeed: 100,
       backSpeed: 100,
       loop: true,
-    })
+    });
 
     return () => {
       // Destroy Typed instance during cleanup to stop animation
-      typed.destroy()
-    }
-  }, [])
+      typed.destroy();
+    };
+  }, []);
 
   return (
     <div className="max-w-7xl mx-auto px-8">
@@ -42,7 +42,7 @@ const Header = () => {
         </div>
       </Fade>
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

@@ -29,7 +29,7 @@ const Projects = () => {
         website when I was on the board as Director of Technology.`,
       imageSrc:
         "https://images.squarespace-cdn.com/content/v1/5c6b6d8b04907916050b145e/1580601994602-LE6HRARN6991I4OFYERS/BAM+LOGO.png",
-      href: "https://bam4bix.com",
+      href: "https://www.bam4biz.com/",
     },
     {
       title: "Gopher A Bite!",
@@ -42,8 +42,8 @@ const Projects = () => {
   ];
   return (
     <div id="projects" className="m-20 p-10">
-      <h1 className="text-white text-7xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-7xl mb-10">
-        Project Archives
+      <h1 className="text-white text-6xl font-bold xxs:text-1xl xs:text-2xl sm:text-4xl lg:text-6xl mb-10">
+        Some of my past projects include...
       </h1>
       <Fade bottom cascade>
         <section class="mb-32 text-center lg:text-left">
