@@ -14,6 +14,15 @@ const Projects = () => {
       imageSrc:
         "https://y.yarn.co/94ddc39c-70f5-44eb-a379-bfa6c23618fe_text.gif",
       href: "https://devpost.com/software/update-later",
+      skills: [
+        "React.js",
+        "JS",
+        "CSS",
+        "Chrome Extensions API",
+        "iziToast",
+        "Bootstrap",
+        "Machine Learning",
+      ],
     },
     {
       title: "Watered Down",
@@ -21,6 +30,23 @@ const Projects = () => {
       description: `A 24 hackathon project that placed 4th at Minnehack 2021`,
       imageSrc: "wateredDown",
       href: "https://devpost.com/software/watered-down",
+      skills: ["React.js", "JS", "CSS", "React-Router", "Bootstrap"],
+    },
+    {
+      title: "Gopher A Bite!",
+      year: 2020,
+      description: `SASE Labs University of Minnesota project for the 2020-2021
+        school year: a webapp that recommends local restaurants!`,
+      imageSrc: "gopherABite",
+      href: "https://github.com/LynhTran/gopher-a-bite",
+      skills: [
+        "Firebase",
+        "React.js",
+        "JS",
+        "Bootstrap",
+        "React-Router",
+        "CSS",
+      ],
     },
     {
       title: "BAM Website (bam4biz.com)",
@@ -30,14 +56,7 @@ const Projects = () => {
       imageSrc:
         "https://images.squarespace-cdn.com/content/v1/5c6b6d8b04907916050b145e/1580601994602-LE6HRARN6991I4OFYERS/BAM+LOGO.png",
       href: "https://www.bam4biz.com/",
-    },
-    {
-      title: "Gopher A Bite!",
-      year: 2020,
-      description: `SASE Labs University of Minnesota project for the 2020-2021
-        school year: a webapp that recommends local restaurants!`,
-      imageSrc: "gopherABite",
-      href: "https://github.com/LynhTran/gopher-a-bite",
+      skills: ["HTML", "JS", "CSS"],
     },
   ];
   return (
@@ -50,7 +69,7 @@ const Projects = () => {
           <div class="grid gap-x-6 gap-y-6 lg:grid-cols-3 lg:gap-x-12">
             {projects.map((p) => (
               <div
-                class="mb-6 block rounded-lg bg-gradient-to-r from-pink to-purple cursor-pointer
+                class="mb-6 pb-4 block rounded-lg bg-gradient-to-r from-pink to-purple cursor-pointer
                 transform transition duration-500 
                 hover:scale-110 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 lg:mb-0"
                 data-te-ripple-init
@@ -74,7 +93,16 @@ const Projects = () => {
                 <div class="p-6">
                   <h5 class="mb-1 text-white text-lg font-bold">{p.title}</h5>
                   <p class="opacity-50 text-white">{p.year}</p>
-                  <p class="mb-2 text-white">{p.description}</p>
+                  <p class=" text-white">{p.description}</p>
+                </div>
+                <div className="flex flex-row flex-wrap pl-4 pr-4">
+                  {p.skills.map((s) => (
+                    <div className=" pl-3 pr-3 pt-1 pb-1 rounded-xl m-1 bg-white ">
+                      <p className="bg-gradient-to-r text-gradient from-purple to-pink">
+                        {s}
+                      </p>
+                    </div>
+                  ))}
                 </div>
               </div>
             ))}

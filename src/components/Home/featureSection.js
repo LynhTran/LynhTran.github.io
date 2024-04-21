@@ -12,6 +12,7 @@ const FeatureSection = () => {
     "CSS",
     "HTML",
     "MergeStyles",
+    "Node.js",
   ];
   return (
     <div className="max-w-7xl mx-auto ">
