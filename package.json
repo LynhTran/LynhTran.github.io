@@ -4,8 +4,6 @@
   "description": "My portfolio website",
   "version": "0.1.0",
   "author": "Lynh Tran",
-  "predeploy": "yarn",
-  "deploy": "gh-pages -d build",
   "homepage": "https://lynhtran.github.io",
   "dependencies": {
     "gatsby": "^3.3.1",
@@ -40,6 +38,8 @@
   ],
   "license": "0BSD",
   "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d dist",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
