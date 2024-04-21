@@ -99,27 +99,31 @@ const Navbar = () => {
       </div>
       {openMenu && (
         <div className="md:hidden">
-          <div className="md-px-2 pt-2 pb-3 space-y-1 sm:px-3">
+          <div className="md-px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-gradient-to-r rounded-xl from-pink to-purple">
             <Link
               href="#skills"
+              onClick={setOpenMenu(false)}
               className="text-white opacity-50 hover:opacity-100 justify-content flex flex-row px-3 py-2 rounded-md text-sm font-medium font-poppins"
             >
               🛠️ &nbsp; Skills
             </Link>
             <Link
               href="#experience"
+              onClick={setOpenMenu(false)}
               className="text-white opacity-50 hover:opacity-100 justify-content flex flex-row px-3 py-2 rounded-md text-sm font-medium font-poppins"
             >
               💼 &nbsp; Experience
             </Link>
             <Link
               href="#projects"
+              onClick={setOpenMenu(false)}
               className="text-white opacity-50 hover:opacity-100 justify-content flex flex-row px-3 py-2 rounded-md text-sm font-medium font-poppins"
             >
               💻 &nbsp; Projects
             </Link>
             <Link
               href="https://www.linkedin.com/in/lynhxtran/"
+              onClick={setOpenMenu(false)}
               className="text-white opacity-50 hover:opacity-100 justify-content flex flex-row px-3 py-2 rounded-md text-sm font-medium font-poppins"
               target="_blank"
             >
@@ -131,6 +135,7 @@ const Navbar = () => {
             </Link>
             <Link
               href="https://github.com/LynhTran/"
+              onClick={setOpenMenu(false)}
               className="text-white opacity-50 hover:opacity-100 justify-content flex flex-row px-3 py-2 rounded-md text-sm font-medium font-poppins"
               target="_blank"
             >
@@ -142,6 +147,7 @@ const Navbar = () => {
             </Link>
             <Link
               href="https://www.goodreads.com/lynhtran"
+              onClick={setOpenMenu(false)}
               className="text-white opacity-50 hover:opacity-100 justify-content flex flex-row px-3 py-2 rounded-md text-sm font-medium font-poppins"
               target="_blank"
             >
