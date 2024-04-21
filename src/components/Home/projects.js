@@ -1,9 +1,9 @@
-import React from "react"
-import Fade from "react-reveal/Fade"
-import Button from "../Atoms/button.js"
-import { Link } from "gatsby"
-import gopherABite from "../../images/gopher-a-bite.png"
-import wateredDown from "../../images/watered-down.png"
+import React from "react";
+import Fade from "react-reveal/Fade";
+import Button from "../Atoms/button.js";
+import { Link } from "gatsby";
+import gopherABite from "../../images/gopher-a-bite.png";
+import wateredDown from "../../images/watered-down.png";
 
 const Projects = () => {
   const projects = [
@@ -41,65 +41,16 @@ const Projects = () => {
       imageSrc: "gopherABite",
       href: "https://github.com/LynhTran/gopher-a-bite",
     },
-  ]
+  ];
   return (
-    <div className="m-20 p-10">
+    <div id="projects" className="m-20 p-10">
       <h1 className="text-white text-7xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-7xl mb-10">
         Project Archives
       </h1>
       <Fade bottom cascade>
-        {/* <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row"> */}
-        {/* <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h1 className="text-white text-2xl">Dory Defense</h1>
-            <p className="mt-10 text-white opacity-50 text-sm">
-              Join Dory in her fight against phishing and other digital privacy
-              threats with this Google Chrome extension, so you can just keep
-              swimming!
-              <br></br>
-              <br></br>
-              <Button>Minnehack 2022 DevPost Submission</Button>
-              <a href="https://devpost.com/software/update-later">
-                Minnehack 2022 DevPost Submission
-              </a>{" "}
-              placing 1st overall.
-            </p>
-          </div> */}
-
-        {/* <div className=" bg-lightblack p-8 rounded-xl m-5 opacity-70 hover:scale-150 xxs:w-full xs:w-full sm:w-1/3">
-            <Link
-              href="https://devpost.com/software/update-later"
-              target="_blank"
-            >
-              <h1 className="text-white text-2xl">Dory Defense</h1>
-              <p className="mt-10 text-white text-sm opacity-50">
-                A 24 hackathon project that placed 1st at Minnehack 2022,
-                inspired by my experience volunteering at an alzheimer's
-                assisted living home.
-              </p>
-
-              <img
-                className="rounded-xl overflow-hidden relative "
-                alt="blog"
-                src="https://y.yarn.co/94ddc39c-70f5-44eb-a379-bfa6c23618fe_text.gif"
-              ></img>
-            </Link>
-          </div> */}
-
-        {/* <div className="w-1/3 bg-lightblack p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h1 className="text-white text-2xl">
-              Chat and share in<br></br>one tool
-            </h1>
-            <p className="mt-10 text-white opacity-50 text-sm">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s.
-            </p>
-          </div> */}
-
-        {/* </div> */}
         <section class="mb-32 text-center lg:text-left">
           <div class="grid gap-x-6 gap-y-6 lg:grid-cols-3 lg:gap-x-12">
-            {projects.map(p => (
+            {projects.map((p) => (
               <div
                 class="mb-6 block rounded-lg bg-gradient-to-r from-pink to-purple cursor-pointer
                 transform transition duration-500 
@@ -133,7 +84,7 @@ const Projects = () => {
         </section>
       </Fade>
     </div>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;

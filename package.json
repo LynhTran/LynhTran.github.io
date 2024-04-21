@@ -39,8 +39,8 @@
   ],
   "license": "0BSD",
   "scripts": {
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -b master -d build",
+    "predeploy": "yarn",
+    "deploy": "gatsby build && gh-pages -d public -b master",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
