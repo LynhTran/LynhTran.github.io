@@ -77,7 +77,7 @@ const Projects = () => {
     },
   ];
   return (
-    <div id="projects" className="m-20 p-10">
+    <div id="projects" className=" sm:ml-24 sm:mr-24 p-10">
       <h1 className="text-white font-bold text-xl xxs:text-xl xs:text-xl sm:text-xl md:text-1xl lg:text-2xl xl:text-6xl 2xl:text-4xl mb-10">
         Some of my past projects include...
       </h1>
