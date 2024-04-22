@@ -21,7 +21,7 @@ const Navbar = () => {
             </div>
 
             <div className="hidden lg:block ">
-              <div className="ml-10 flex items-baseline space-x-4 bg-gradient-to-r rounded-xl from-[#911977] to-[#7e22ce]">
+              <div className="ml-10 flex items-baseline space-x-4 bg-gradient-to-r rounded-xl from-[#911977] to-purple">
                 {/*
                 <Link
                   className="text-white opacity-90 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-poppins"

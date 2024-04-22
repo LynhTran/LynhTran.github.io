@@ -18,7 +18,7 @@ const FeatureSection = () => {
     <div className="max-w-7xl mx-auto ml-28 mr-28">
       <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row">
-          <div className="w-2/6 bg-gradient-to-r from-[#be185d] to-[#7e22ce] p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-2/6">
+          <div className="w-2/6 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-2/6">
             <h1 className="text-white opacity-60 font-semibold text-xl xxs:text-xl xs:text-xl sm:text-xl md:text-1xl lg:text-2xl xl:text-4xl 2xl:text-4xl">
               About
             </h1>
@@ -48,7 +48,7 @@ const FeatureSection = () => {
               <div className="w-full flex flex-row  flex-wrap ">
                 {skills.map((skill) => (
                   <div className="rounded-xl h-10 flex flex-col content-center justify-center align-middle text-center p-3 m-2  bg-white transition duration-500 ease-in-out">
-                    <span class="text-gradient bg-gradient-to-r from-[#be185d] to-[#7e22ce]">
+                    <span class="text-gradient bg-gradient-to-r from-pink to-purple">
                       <h3 className="text-sm xxs:text-sm xs:text-sm sm:text-sm md:text-lg lg:text-xl xl:text-xl 2xl:text-xl font-semibold">
                         {skill}
                       </h3>
