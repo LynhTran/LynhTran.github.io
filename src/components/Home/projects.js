@@ -61,7 +61,7 @@ const Projects = () => {
   ];
   return (
     <div id="projects" className="m-20 p-10">
-      <h1 className="text-white text-6xl font-bold xxs:text-1xl xs:text-2xl sm:text-4xl lg:text-6xl mb-10">
+      <h1 className="text-white font-bold text-xl xxs:text-xl xs:text-xl sm:text-xl md:text-1xl lg:text-2xl xl:text-6xl 2xl:text-4xl mb-10">
         Some of my past projects include...
       </h1>
       <Fade bottom cascade>

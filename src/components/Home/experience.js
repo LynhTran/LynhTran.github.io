@@ -5,7 +5,7 @@ const Experience = () => {
   return (
     <Fade bottom cascade>
       <div id="experience" className="mt-10 px-8 m-20">
-        <h1 className="text-white text-6xl font-bold xxs:text-1xl xs:text-2xl sm:text-4xl lg:text-6xl m-4 mb-10">
+        <h1 className="text-white font-bold text-xl xxs:text-xl xs:text-xl sm:text-xl md:text-1xl lg:text-2xl xl:text-6xl 2xl:text-4xl m-4 mb-10">
           Some of my experiences include...
         </h1>
         <div

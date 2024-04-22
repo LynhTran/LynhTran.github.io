@@ -26,10 +26,10 @@ const Header = () => {
   }, []);
 
   return (
-    <div className="max-w-7xl mx-auto px-8 mt-32 ">
+    <div className="max-w-7xl mx-auto px-8 mt-32 ml-28 mr-28">
       <Fade>
         <div>
-          <h2 className="text-white font-poppins opacity-50 font-semibold mt-5 text-xs mb-4 xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-xl">
+          <h2 className="text-white font-poppins opacity-50 font-semibold mt-5 mb-4 text-xs xxs:text-xs xs:text-xs sm:text-sm md:text-sm lg:text-xl">
             Welcome to my website
           </h2>
 
