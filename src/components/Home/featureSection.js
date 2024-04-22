@@ -14,6 +14,9 @@ const FeatureSection = () => {
     "MergeStyles",
     "Node.js",
   ];
+
+  const interests = ["Mechanical Keyboards", "Cappuccinos"];
+
   return (
     <div className="max-w-7xl mx-auto ml-28 mr-28">
       <Fade bottom cascade>
@@ -41,16 +44,31 @@ const FeatureSection = () => {
             id="skills"
             className="w-4/6 bg-lightblack p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-4/6"
           >
-            <h1 className="text-white mb-2 text-xl xxs:text-xl xs:text-xl sm:text-xl md:text-1xl lg:text-2xl xl:text-4xl 2xl:text-4xl">
+            <h1 className="text-white mb-4 text-xl xxs:text-xl xs:text-xl sm:text-xl md:text-1xl lg:text-2xl xl:text-4xl 2xl:text-4xl">
               I turn complex figma designs into reality using...
             </h1>
             <Fade bottom cascade>
-              <div className="w-full flex flex-row  flex-wrap ">
+              <div className="w-full flex flex-row flex-wrap gap-5">
                 {skills.map((skill) => (
-                  <div className="rounded-xl h-10 flex flex-col content-center justify-center align-middle text-center p-3 m-2  bg-white transition duration-500 ease-in-out">
+                  <div
+                    key={skill}
+                    className="rounded-xl h-10 flex flex-col content-center justify-center align-middle text-center p-3 bg-white transition duration-500 ease-in-out"
+                  >
                     <span class="text-gradient bg-gradient-to-r from-pink to-purple">
                       <h3 className="text-sm xxs:text-sm xs:text-sm sm:text-sm md:text-lg lg:text-xl xl:text-xl 2xl:text-xl font-semibold">
                         {skill}
+                      </h3>
+                    </span>
+                  </div>
+                ))}
+                {interests.map((i) => (
+                  <div
+                    key={i}
+                    className="rounded-xl h-7 flex flex-col content-center justify-center align-middle text-center p-1 bg-gradient-to-r from-pink to-purple transition duration-500 ease-in-out"
+                  >
+                    <span class="text-white ">
+                      <h3 className="text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-sm xl:text-sm 2xl:text-sm font-semibold">
+                        {i}
                       </h3>
                     </span>
                   </div>

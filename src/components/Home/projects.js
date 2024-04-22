@@ -69,6 +69,7 @@ const Projects = () => {
           <div class="grid gap-x-6 gap-y-6 lg:grid-cols-3 lg:gap-x-12">
             {projects.map((p) => (
               <div
+                key={p.title}
                 class="mb-6 pb-4 block rounded-lg bg-gradient-to-r from-pink to-purple cursor-pointer
                 transform transition duration-500 
                 hover:scale-110 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 lg:mb-0"
