@@ -8,10 +8,7 @@ const Experience = () => {
         <h1 className="text-white font-bold text-xl xxs:text-xl xs:text-xl sm:text-xl md:text-1xl lg:text-2xl xl:text-6xl 2xl:text-4xl m-4 mb-10">
           Some of my experiences include...
         </h1>
-        <div
-          className="text-white opacity-50! 
-         ml-4 "
-        >
+        <div className="text-gray-400 ml-4 ">
           To see the full list of experiences, check out my{" "}
           <a
             href="https://www.linkedin.com/in/lynhxtran/"

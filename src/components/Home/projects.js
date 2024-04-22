@@ -69,7 +69,7 @@ const Projects = () => {
           <div class="grid gap-x-6 gap-y-6 lg:grid-cols-3 lg:gap-x-12">
             {projects.map((p) => (
               <div
-                class="mb-6 pb-4 block rounded-lg bg-gradient-to-r from-pink to-purple cursor-pointer
+                class="mb-6 pb-4 block rounded-lg bg-gradient-to-r from-[#be185d] to-[#7e22ce] cursor-pointer
                 transform transition duration-500 
                 hover:scale-110 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 lg:mb-0"
                 data-te-ripple-init
@@ -98,7 +98,7 @@ const Projects = () => {
                 <div className="flex flex-row flex-wrap pl-4 pr-4">
                   {p.skills.map((s) => (
                     <div className=" pl-3 pr-3 pt-1 pb-1 rounded-xl m-1 bg-white ">
-                      <p className="bg-gradient-to-r text-gradient from-purple to-pink">
+                      <p className="bg-gradient-to-r text-gradient from-[#911977] to-[#7e22ce]">
                         {s}
                       </p>
                     </div>

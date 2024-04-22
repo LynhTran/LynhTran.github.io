@@ -9,11 +9,7 @@ const Header = () => {
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: [
-        "Lynh Tran",
-        "a Front End Developer",
-        "located in the Seattle Area",
-      ],
+      strings: ["Lynh Tran", "a Front End Developer", "in the Seattle Area"],
       typeSpeed: 100,
       backSpeed: 100,
       loop: true,
@@ -35,7 +31,7 @@ const Header = () => {
 
           <h1 className="text-white font-poppins font-semibold text-2xl xxs:text-2xl xs:text-2xl sm:text-lg md:text-2xl lg:text-4xl xl:text-7xl 2xl:text-8xl">
             👋 Hi. I'm{" "}
-            <span class="text-gradient bg-gradient-to-r from-pink to-purple">
+            <span class="text-gradient bg-gradient-to-r from-[#be185d] to-[#7e22ce]">
               <span ref={el} />
             </span>
           </h1>
