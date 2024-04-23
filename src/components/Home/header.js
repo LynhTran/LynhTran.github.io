@@ -1,10 +1,8 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 import Typed from "typed.js";
-// Assets
 
 const Header = () => {
-  // Create reference to store the DOM element containing the animation
   const el = React.useRef(null);
 
   React.useEffect(() => {
@@ -13,10 +11,11 @@ const Header = () => {
       typeSpeed: 100,
       backSpeed: 100,
       loop: true,
+      cursorChar: "|",
+      attr: null, // Prevent Typed.js from automatically adding cursor class
     });
 
     return () => {
-      // Destroy Typed instance during cleanup to stop animation
       typed.destroy();
     };
   }, []);
@@ -31,9 +30,10 @@ const Header = () => {
 
           <h1 className="text-white font-poppins font-semibold text-2xl xxs:text-2xl xs:text-2xl sm:text-lg md:text-2xl lg:text-4xl xl:text-7xl 2xl:text-8xl">
             👋 Hi. I'm{" "}
-            <span class="text-gradient bg-gradient-to-r from-pink to-purple">
-              <span ref={el} />
-            </span>
+            <span
+              className="text-gradient bg-gradient-to-r from-pink to-purple"
+              ref={el}
+            />
           </h1>
         </div>
       </Fade>
