@@ -1,21 +1,34 @@
-import * as React from "react";
+import React, { useState, useEffect } from "react";
 import Layout from "../components/layout";
-
-// Components
 import Header from "../components/Home/header";
 import FeatureSection from "../components/Home/featureSection";
 import Experience from "../components/Home/experience";
 import Projects from "../components/Home/projects";
+import { fairyDustCursor } from "cursor-effects";
+const IndexPage = () => {
+  useEffect(() => {
+    new fairyDustCursor({
+      colors: [
+        "#F58DFF",
+        "#17FF72",
+        "#05CBFF ",
+        "#FFF340",
+        "#051EFF",
+        "#7405FF",
+      ],
+    });
+  }, []);
 
-const IndexPage = () => (
-  <div className="h-auto w-screen">
-    <Layout>
-      <Header></Header>
-      <FeatureSection></FeatureSection>
-      <Projects />
-      <Experience></Experience>
-    </Layout>
-  </div>
-);
+  return (
+    <div className="h-screen w-screen relative">
+      <Layout>
+        <Header />
+        <FeatureSection />
+        <Projects />
+        <Experience />
+      </Layout>
+    </div>
+  );
+};
 
 export default IndexPage;

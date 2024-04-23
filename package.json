@@ -6,6 +6,7 @@
   "author": "Lynh Tran",
   "homepage": "https://lynhtran.github.io",
   "dependencies": {
+    "cursor-effects": "^1.0.15",
     "gatsby": "^3.3.1",
     "gatsby-plugin-gatsby-cloud": "^2.2.0",
     "gatsby-plugin-image": "^1.2.1",
@@ -18,10 +19,8 @@
     "gh-pages": "^6.1.1",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
-    "react-chrono": "^2.6.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
-    "react-native-just-timeline": "^0.0.2",
     "react-reveal": "^1.2.2",
     "react-timeline-scribble": "^1.0.14",
     "typed.js": "^2.1.0",
