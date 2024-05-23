@@ -18,7 +18,7 @@ const FeatureSection = () => {
   const interests = ["Mechanical Keyboards", "Cappuccinos"];
 
   return (
-    <div className="max-w-7xl w-full mx-auto m-2 sm:ml-32 sm:mr-32">
+    <div className=" mx-auto m-2 sm:ml-32 sm:mr-32">
       <Fade bottom cascade>
         <div className="mt-10 flex flex-row gap-10 xxs:flex-col xs:flex-col sm:flex-row">
           <div className="w-2/6 bg-gradient-to-r from-pink to-purple p-4 sm:p-8 rounded-xl xxs:w-full xs:w-full sm:w-2/6">
