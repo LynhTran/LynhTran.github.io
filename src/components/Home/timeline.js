@@ -19,14 +19,6 @@ const VerticalTimeline = () => {
         >
           ● Turning complex Figma designs into reality for the Window's Data
           platform using React, MobX, FluentUI and Typescript
-          <br></br>● Creator and maintainer of User Feedback spike detection UI
-          and Feature Rollup customizable view UI
-          <br></br>● Built upon the legacy Flight/Release sign off UI to support
-          more data and more frequent releases, fueling the meetings that help
-          bring Microsoft’s teams together to ship Windows to millions of
-          customers worldwide
-          <br></br>● Improved performance Health data portal, by making
-          rendering time 4x faster
         </Event>
         <Event
           interval={"May 2022 - Aug 2022"}
